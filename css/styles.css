@@ -1,0 +1,279 @@
+
+/********************************
+*******WEB COVER BACKGROUND******
+********************************/
+html { 
+  background: url(../images/bg-sized-down.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  background-color: grey;
+}
+
+/********************************
+*******LOGO POSITIONING**********
+********************************/
+
+.logo {
+	margin-top: 10%;
+
+}
+
+/********************************
+*******LOGO STYLING *************
+********************************/
+
+span.logo {
+
+	font-family: 'Lobster', cursive;
+	color: white;
+	font-size: 4em;
+	text-shadow: 2px 2px #000000;
+	opacity: 0.8;
+
+}
+
+/********************************
+***CENTER BODY DIV TO SCREEN****
+********************************/
+
+body {
+
+	margin: auto;
+}
+
+/********************************
+***TEXT UNDER THE LOGO STYLES***
+********************************/
+
+#desc {
+
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	font-size: 1em;
+	text-shadow: 2px 2px 5px #000000;
+	opacity: 0.8;
+	
+}
+
+/********************************
+***SETTING DESC. MARGINS*********
+********************************/
+
+.desc {
+	margin-top: -17px;
+
+}
+
+/********************************
+*BEGIN NAV STYLES FOR SITE LINKS*
+********************************/
+
+.nav img.githover{
+
+	height: 80px;
+	width: 80px;
+	opacity: .8;
+	margin-right: 15px;
+
+}
+
+.nav img.twithover{
+
+	height: 80px;
+	width: 80px;
+	opacity: .8;
+	margin-right: 15px;
+
+}
+
+.nav img.plushover{
+
+	height: 80px;
+	width: 80px;
+	opacity: .8;
+	margin-right: 15px;
+
+}
+
+/********************************
+***SET NAVIGATION BAR MARGINS***
+********************************/
+
+.nav {
+
+	margin-top: 20px;
+}
+
+
+.nav_text {
+
+	margin-top: -20px;
+}
+
+.footer {
+
+	width: 100%;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	height: 50px;
+	z-index: 1;
+	opacity: .5;
+	background-color: black;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	font-size: 1em;
+	margin-top: 30px;
+}
+
+/********************************
+***V-TEXT ALIGN FOR FOOTER DATA**
+********************************/
+.footer p {
+
+	vertical-align: middle;
+}
+
+
+/********************************
+*LINK STYLES FOR THE ENTIRE PAGE*
+********************************/
+
+a {
+
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+
+	text-decoration: none;
+	color: white;
+}
+
+/********************************
+******NAVIGATIONAL CONTAINER****
+********************************/
+
+.navcontainer {
+
+	width: 400px;
+	height: 80px;
+	padding-bottom: -30px;
+	padding-top: 20px;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	font-size: .6em;
+	text-shadow: 2px 2px 5px #000000;
+	opacity: 0.8;
+	font-weight: bold;
+
+}
+
+.navcontainer table tr td.github {
+
+	width: 133px;
+	height: 80px;
+	background-color: white;
+	background: url(../images/git_cat.png) center;
+	background-size: 60% 80%;
+	background-repeat: no-repeat;
+
+}
+
+.navcontainer table tr td.github p{
+
+	visibility: hidden;
+
+}
+
+.navcontainer table tr td.github:hover p{
+
+	visibility: visible;
+	cursor: move;
+
+}
+
+.navcontainer table tr td.github:hover {
+
+	width: 133px;
+	height: 80px;
+	background-color: white;
+	background: url(../images/git_cat_hover.png) center;
+	background-size: 60% 80%;
+	background-repeat: no-repeat;
+	cursor: move;
+
+}
+
+.navcontainer table tr td.twitter {
+
+	width: 133px;
+	height: 80px;
+	background-color: white;
+	background: url(../images/twitter.png) center;
+	background-size: 62% 80%;
+	background-repeat: no-repeat;
+}
+
+.navcontainer table tr td.twitter:hover {
+
+	width: 133px;
+	height: 80px;
+	background-color: white;
+	background: url(../images/twitter_hover.png) center;
+	background-size: 62% 80%;
+	background-repeat: no-repeat;
+	cursor: move;
+
+}
+
+.navcontainer table tr td.twitter p{
+
+	visibility: hidden;
+}
+
+.navcontainer table tr td.twitter:hover p {
+
+	visibility: visible;
+
+}
+
+.navcontainer table tr td.gplus {
+
+	width: 133px;
+	height: 80px;
+	background-color: white;
+	background: url(../images/gplus.png) center;
+	background-size: 62% 80%;
+	background-repeat: no-repeat;
+
+}
+
+.navcontainer table tr td.gplus:hover {
+
+	width: 133px;
+	height: 80px;
+	background-color: white;
+	background: url(../images/gplus_hover.png) center;
+	background-size: 62% 80%;
+	background-repeat: no-repeat;
+	cursor: move;
+}
+
+.navcontainer table tr td.gplus p {
+	visibility: hidden;
+}
+
+.navcontainer table tr td.gplus:hover p {
+
+	visibility: visible;
+
+}
+
